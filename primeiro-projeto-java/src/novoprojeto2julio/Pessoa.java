@@ -8,6 +8,8 @@ public class Pessoa {
 	
 	
 	private int idade;
+	
+	private int filhos;
 
 	public int getIdade() {
 		return idade;

@@ -4,11 +4,15 @@ public class Primeiraoperacoes {
 	/*Main é método executável no Java*/
 	public static void main(String[] args) {
 		
-		int nota1 = 90;
-		int nota2 = 70;
-		int nota3 = 50;
-		int nota4 = 88;
+		double nota11 = 90;
+		double nota22 = 70;
+		double nota33 = 50;
+		double nota44 = 88;
 		
-		System.out.println("Media das notas = " + (nota1 + nota2 + nota3 + nota4) /4);
+		double mediaFinal = (nota11 + nota22 + nota33 + nota44) /4;
+		
+		System.out.println("Media das notas = " + mediaFinal);
 	}
+	
+	
 }
